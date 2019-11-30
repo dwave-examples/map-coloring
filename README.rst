@@ -15,6 +15,7 @@ Usage
 -----
 Simply run the code with
 ::
+
   python map_coloring.py
 
 Code Overview
@@ -53,4 +54,4 @@ Alternative implementation
 
 License
 -------
-Released under the Apache License 2.0. See `LICENSE <../LICENSE>`_ file.
+Released under the Apache License 2.0. See `LICENSE <./LICENSE>`_ file.
