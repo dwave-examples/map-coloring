@@ -1,4 +1,7 @@
 import networkx as nx
+
+import matplotlib
+matplotlib.use("agg")   # select backend
 import matplotlib.pyplot as plt
 
 
