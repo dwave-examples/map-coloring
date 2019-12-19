@@ -1,5 +1,6 @@
-Map Coloring Demo
-===================
+============
+Map Coloring
+============
 A demo on using the D-Wave Ocean SDK to solve the map coloring problem. Namely,
 given a map, color the regions of the map such that no two regions sharing a
 border would share the same color.
