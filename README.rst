@@ -1,3 +1,7 @@
+.. image:: https://circleci.com/gh/dwave-examples/map-coloring.svg?style=svg
+    :target: https://circleci.com/gh/dwave-examples/map-coloring
+    :alt: Linux/Mac/Windows build status
+
 ============
 Map Coloring
 ============
