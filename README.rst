@@ -13,7 +13,7 @@ border would share the same color.
   :align: center
   :figclass: align-center
   
-  A graph representation of Canada's provinces of Canada. Provinces connected by edges
+  A graph representation of the provinces of Canada. Provinces connected by edges
   share a border together. This is a sample output produced by this demo.
 
 Usage
