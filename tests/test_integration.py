@@ -15,14 +15,18 @@
 import subprocess
 import unittest
 import os
+import sys
+
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class IntegrationTests(unittest.TestCase):
 
     def test_map_coloring(self):
-        cwd=os.getcwd()
-        output=subprocess.check_output(["python", cwd+"/map_coloring.py"])
+        demo_file = os.path.join(project_dir, 'map_coloring.py')
+        output=subprocess.check_output([sys.executable, demo_file])
         output=str(output)
-        print("Example output \n"+output)
+        if os.getenv('DEBUG_OUTPUT'):
+            print("Example output \n"+ output)
 
         with self.subTest(msg="Verify if output contains 'Does solution satisfy our constraints? True' \n"):
             self.assertIn("Does solution satisfy our constraints? True".upper(),output.upper())
