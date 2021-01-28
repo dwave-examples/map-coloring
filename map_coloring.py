@@ -84,7 +84,8 @@ for x, y in neighbours:
 bqm = dwavebinarycsp.stitch(csp)
 
 # Solve BQM
-solution = KerberosSampler().sample(bqm)
+solution = KerberosSampler().sample(bqm,
+                       qpu_params={'label': 'Example - Map Coloring'})
 best_solution = solution.first.sample
 print("Solution: ", best_solution)
 
@@ -115,4 +116,3 @@ node_positions = {"bc": (0, 1),
 nodes = [u.name for u in provinces]
 edges = [(u.name, v.name) for u, v in neighbours]
 visualize_map(nodes, edges, best_solution, node_positions=node_positions)
-
