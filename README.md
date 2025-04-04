@@ -59,4 +59,4 @@ Constraints to describe the map coloring problem:
 
 Released under the Apache License 2.0. See [LICENSE](./LICENSE) file.
 
-[1]: https://docs.ocean.dwavesys.com/projects/dwave-networkx/en/latest/reference/algorithms/generated/dwave_networkx.algorithms.coloring.min_vertex_color_qubo.html#dwave_networkx.algorithms.coloring.min_vertex_color_qubo
+[1]: https://docs.dwavequantum.com/en/latest/ocean/api_ref_dnx/generated/dwave_networkx.algorithms.coloring.min_vertex_color_qubo.html
