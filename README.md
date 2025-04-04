@@ -12,7 +12,7 @@ given a map, color the regions of the map such that no two regions sharing a
 border would share the same color.
 
 ![Graph](graph.png)
-  
+
 A graph representation of the provinces of Canada. Provinces connected by edges
 share a border together. This is a sample output produced by this demo.
 
