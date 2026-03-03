@@ -12,10 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import numpy as np
+
 import dwavebinarycsp
 from hybrid.reference.kerberos import KerberosSampler
 
 from utilities import visualize_map
+
+np.set_printoptions(legacy='1.25')
 
 
 class Province:
